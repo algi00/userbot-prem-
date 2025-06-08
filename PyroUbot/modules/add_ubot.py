@@ -318,7 +318,7 @@ async def _(client, callback_query):
     await install_my_peer(new_client)
     try:
         await new_client.join_chat("suportubotby")
-        await new_client.join_chat("testiBarzz")
+        await new_client.join_chat("suportvina3")
         await new_client.join_chat("userbotvina")
         await new_client.join_chat("GRUPPUBLICVINA")
         await new_client.join_chat("GRUPBOTMUSICVINA")
