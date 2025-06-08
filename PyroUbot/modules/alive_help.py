@@ -156,9 +156,9 @@ async def user_help(client, message):
 @PY.INLINE("^user_help")
 async def user_help_inline(client, inline_query):
     SH = await ubot.get_prefix(inline_query.from_user.id)
-    msg = f"""<blockquote><b>𝗫𝗧𝗥𝗘𝗠𝗘𝗕𝗢𝗧</b>
+    msg = f"""<blockquote><b>AKBAR USERBOT PREMIUM</b>
 <b>ᴜsᴇʀ: <a href=tg://user?id={inline_query.from_user.id}>{inline_query.from_user.first_name} {inline_query.from_user.last_name or ''}</a></b>
-<b>ᴏᴡɴᴇʀ: @bloodskil2</b>
+<b>ᴏᴡɴᴇʀ: @Pelositi01</b>
 <b>ᴘʟᴜɢɪɴs: {len(HELP_COMMANDS)}</b>
 <b>ᴘʀᴇꜰɪxᴇs: {' '.join(SH)}</b></blockquote>"""
     results = [InlineQueryResultArticle(
@@ -185,7 +185,7 @@ async def help_callback(client, callback_query):
     tutup_match = re.match(r"help_tutup\((.+?)\)", callback_query.data)
     back_match = re.match(r"help_back", callback_query.data)
     SH = await ubot.get_prefix(callback_query.from_user.id)
-    top_text = f"""<blockquote><b>𝗫𝗧𝗥𝗘𝗠𝗘𝗕𝗢𝗧</b>
+    top_text = f"""<blockquote><b>AKBAR USERBOT PREMIUM</b>
 <b>ᴜsᴇʀ: <a href=tg://user?id={callback_query.from_user.id}>{callback_query.from_user.first_name} {callback_query.from_user.last_name or ''}</a></b>
 <b>ᴏᴡɴᴇʀ: @bloodskil2</b>
 <b>ᴘʟᴜɢɪɴs: {len(HELP_COMMANDS)}</b>
@@ -197,7 +197,7 @@ async def help_callback(client, callback_query):
         button = [[InlineKeyboardButton("♅ ʙᴀᴄᴋ ♅", callback_data="help_back")]]
         await callback_query.edit_message_text(
             text=text 
-            + '\n<u><blockquote><b> 𝚇𝚃𝚁𝙴𝙼𝙴𝙱𝙾𝚃 𝙱𝚈 𝙱𝙻𝙾𝙾𝙳𝚂𝙺𝙸𝙻 </b></blockquote></u>',
+            + '\n<u><blockquote><b> mak lu mati 𝙱𝚈 𝙱𝙻𝙾𝙾𝙳𝚂𝙺𝙸𝙻 </b></blockquote></u>',
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
