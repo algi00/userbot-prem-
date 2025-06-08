@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-MAX_BOT = int(os.getenv("MAX_BOT", "20"))
+MAX_BOT = int(os.getenv("MAX_BOT", "10"))
 
 DEVS = list(map(int, os.getenv("DEVS", "7524271223").split()))
 
@@ -19,7 +19,7 @@ BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002718575966 -1002
 
 RMBG_API = os.getenv("RMBG_API", "cdda26fd6b87e7fb35f1b8d0d28d7cd6")
 
-MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://zan:zan@cluster0.epnnx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = os.getenv("MONGO_URL", "mongodb+srv://familyayanh:familyayanh@cluster0.jlrozly.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1002718575966"))
 
