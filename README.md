@@ -14,7 +14,7 @@ bash installnode.sh
 apt install python3.10-venv
 ```
 ```
-screen -S userbotgc
+screen -S userbot-prem-
 ```
 ```
 python3 -m venv venv && source venv/bin/activate
