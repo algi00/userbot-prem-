@@ -21,5 +21,5 @@ RMBG_API = os.getenv("RMBG_API", "")
 
 MONGO_URL = os.getenv("MONGO_URL", "")
 
-LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", ""))
+LOGS_MAKER_UBOT = int(os.getenv("LOGS_MAKER_UBOT", "-1002718575966"))
 
