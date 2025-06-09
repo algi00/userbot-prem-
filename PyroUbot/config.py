@@ -9,7 +9,7 @@ DEVS = list(map(int, os.getenv("DEVS", "").split()))
 
 API_ID = int(os.getenv("API_ID", "21756016"))
 
-API_HASH = os.getenv("API_HASH", "")
+API_HASH = os.getenv("API_HASH", "cdda26fd6b87e7fb35f1b8d0d28d7cd6")
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "7822314667:AAGpsnA0ePJbfAynO-0evSXNH8uOYd_2F7Q")
 
