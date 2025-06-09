@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-MAX_BOT = int(os.getenv("MAX_BOT", "20"))
+MAX_BOT = int(os.getenv("MAX_BOT", "200"))
 
 DEVS = list(map(int, os.getenv("DEVS", "").split()))
 
@@ -15,7 +15,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "7822314667:AAGpsnA0ePJbfAynO-0evSXNH8uOYd_2F
 
 OWNER_ID = int(os.getenv("OWNER_ID", ""))
 
-BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002718575966 -1002053287763 -1002044997044 -1002022625433 -1002050846285").split()))
+BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002718575966").split()))
 
 RMBG_API = os.getenv("RMBG_API", "")
 
